@@ -40,7 +40,7 @@ function App() {
         <Route path="/shipping" element={<Shipping />} />
         <Route path="/login" element={<Login />} />
         <Route path="/me" element={<Profile />} />
-        <Route path="/order" element={<MyOrders />} />
+        <Route path="/myorders" element={<MyOrders />} />
         <Route path="/order/:id" element={<OrderDetails />} />
       </Routes>
 
